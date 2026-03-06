@@ -10,4 +10,4 @@ urlpatterns = [
     path('public/', views.public_timetable_view, name='public_timetable'),
 ]
   
-  # ----------------------- urls.py
+  # ----------------------- urls.py.
