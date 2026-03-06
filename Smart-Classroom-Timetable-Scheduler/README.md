@@ -78,4 +78,4 @@ t = number of time slots
 Advantages
 • Reduces manual scheduling errors • Saves administrative time • Efficient classroom utilization • Easy timetable modification • Centralized schedule management
 Future Enhancements
-• AI-based timetable optimization • Mobile application integration • Real-time notifications for schedule updates • Integration with attendance systems
+• AI-based timetable optimization • Mobile application integration • Real-time notifications for schedule updates • Integration with attendance systems.
