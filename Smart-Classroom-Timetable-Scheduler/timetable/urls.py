@@ -9,3 +9,5 @@ urlpatterns = [
     path('export/pdf/<int:section_id>/', views.export_timetable_pdf, name='export_timetable_pdf'),
     path('public/', views.public_timetable_view, name='public_timetable'),
 ]
+  
+  # ----------------------- urls.py
