@@ -1,0 +1,91 @@
+
+
+## 1. Test Case Documentation (Show 2–3 test cases)
+
+
+
+**Test Case 1 – Admin Login**
+
+| Field           | Description                   |
+| --------------- | ----------------------------- |
+| Test Case ID    | TC01                          |
+| Feature         | Admin Login                   |
+| Input           | Correct username and password |
+| Expected Result | Admin dashboard opens         |
+| Status          | Passed                        |
+
+**Test Case 2 – Generate Timetable**
+
+| Field           | Description                           |
+| --------------- | ------------------------------------- |
+| Test Case ID    | TC02                                  |
+| Feature         | Timetable Generation                  |
+| Input           | Subject, teacher, classroom data      |
+| Expected Result | Timetable generated without conflicts |
+| Status          | Passed                                |
+
+**Test Case 3 – Publish Timetable**
+
+| Field           | Description                              |
+| --------------- | ---------------------------------------- |
+| Test Case ID    | TC03                                     |
+| Feature         | Publish Timetable                        |
+| Input           | Admin clicks publish                     |
+| Expected Result | Students and teachers can view timetable |
+| Status          | Passed                                   |
+
+
+
+## 2. Unit Testing (Explain simply)
+
+
+
+> “For unit testing, I tested individual modules like login authentication, timetable generation logic, and database insertion separately to ensure each component works correctly.”
+
+Example units:
+
+* Login authentication
+* Timetable generation algorithm
+* Teacher availability check
+
+---
+
+## 3. Integration Testing
+
+
+
+> “Integration testing was done to ensure different modules work together, for example when admin generates a timetable it is stored in the database and then displayed on the student dashboard.”
+
+Example integrations:
+
+* Admin → timetable generation → database
+* Database → student dashboard display
+* Publish → notification system
+
+---
+
+## 4. Bug Awareness
+
+
+
+> “During development I checked for bugs like timetable conflicts, duplicate entries, and incorrect teacher assignment.”
+
+Examples:
+
+* Same teacher in two classes at same time
+* Same classroom conflict
+* Invalid login credentials
+
+---
+
+## 5. Honest Quality Assessment
+
+
+
+> “The system works well for timetable generation and viewing, but improvements can be made in UI design and adding automated testing in future versions.”
+
+---
+
+
+
+
