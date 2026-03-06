@@ -112,3 +112,4 @@ def faculty_delete(request, pk):
         faculty.delete()
         messages.success(request, "Faculty member removed successfully.")
     return redirect('faculty_list')
+# ------views.py

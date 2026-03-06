@@ -15,3 +15,6 @@ class TimetableEntry(models.Model):
 
     def __str__(self):
         return f"{self.day} - {self.subject.code} for {self.section.name}"
+    
+    # ------- models.py.
+    
