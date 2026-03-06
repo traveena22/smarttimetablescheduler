@@ -5,4 +5,4 @@ class SchedulerConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
     name = 'scheduler'
 
-# -------------apps.py
+# -------------apps.py.
